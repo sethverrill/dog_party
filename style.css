@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+header {
+  background-color: #75e2e6;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 20px 10px;
+  background: #ffffff;
+  background-image: url("assets/park.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;  
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-top: -20px;
+  padding-top: 0px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-family: 'Avenir Next';   
+}
+
+.hero h1 strong {
+  font-weight: 700;
+}
+
+.hero img {
+  border-radius: 50%;
+  margin: 20px 0;
+  vertical-align: middle;
+  position: relative;
+  top: -15px;
+  border: 5px solid #048eaa;
+  height: 200px;
+}
+
+.hero form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 460px;
+  height: auto;
+}
+
+.hero label {
+  display: block;
+  text-align: left;  
+  font-size: 1em;
+  width: 100%;  
+}
+
+.hero input[type="text"] {     
+  width: 100%;
+  height: 50px;  
+  font-size: 1.2em;
+  font-weight: 100;
+  border: none;
+  padding: 0;
+}
+
+.hero button { 
+  padding: 10px 20px; 
+  background-color: #75e2e6;
+  width: 100%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+  border: 20px;
+  padding: 40px 40px;  
+  min-height: 600px;
+}
+
+.dog-info {
+  text-align: center;  
+  padding: 20px;
+  margin: 10px 10px;
+}
+
+.dog-info img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 5px solid #048eaa;;
+}
+
+.dog-info h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  font-weight: 800;
+}
+
+.dog-info p {
+  width: 300px;
+  padding: 50px 20px;
+  font-size: 1em;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.dog-info button {  
+  padding: 0px 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #048eaa;
+  font-size: 1em;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {   
+  background-color: #048eaa;  
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: -15px;
+  padding: 20px 0px 0px 0px;
+}
+
+.social-media img {  
+  width: 40px;
+  height: 150px;
+  margin: 0 5px;
+  margin-top: -15px;
+}
